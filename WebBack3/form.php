@@ -4,9 +4,18 @@
 <title>Backend</title>
 <link rel="stylesheet" href="../style.css">
 </head>
-<body>
+<body style="margin: 0;">
 
-<div class="container">
+<header>
+     <div class="block1">
+        <div class="block2">Аппаратно-програмные WEB средства</div>  
+        <div class="block4">Задание №3              <div class="right-align"><a href="../Index.html">Назад</a></div></div>
+    </div>
+    </header>
+    <div class="text1">
+    <nav>
+    <section>
+    <div class="block3"> 
     <h2>Регистрационная форма</h2>
     <form action="index.php" method="post">
         <label for="full_name">ФИО:</label><br>
@@ -52,17 +61,19 @@
 
         <input class="btn" type="submit" value="Сохранить">
     </form>
-
-
+    </div>
+    </section>
+    <section>
+    <div class="block3"> 
     <p>1) Подключение к серверу СУБД</p>
-  <img src="pic/maryadb1.PNG" alt="screenshot-1">
+  <img src="pic/1.PNG" alt="screenshot-1">
   <br>
   <br>
   <p>2) Создание таблицы</p>
-  <img src="pic/tableAPP2.PNG" alt="screenshot-2">
-  <img src="pic/tableLang3.PNG" alt="screenshot-3">
-  <img src="pic/tableApp_Lang4.PNG" alt="screenshot-4">
-  <img src="pic/poleLang5.PNG" alt="screenshot-5">
+  <img src="pic/2.PNG" alt="screenshot-2">
+  <img src="pic/3.PNG" alt="screenshot-3">
+  <img src="pic/4.PNG" alt="screenshot-4">
+  <img src="pic/5.PNG" alt="screenshot-5">
   <br>
   <br>
   <p>3) Заполнение таблицы</p>
@@ -71,6 +82,16 @@
   <br>
   <p>4) Просмотр содеражания таблиц</p>
   <img src="pic/formSave6.PNG" alt="screenshot-7">
-</div>
+    </div>
+    </section>
+    </nav> 
+    </div>
+    <footer>
+        <div class="block1">
+            <div class="text1">
+            Пупу.
+            </div>
+        </div>
+    </footer>
 
 </body>
